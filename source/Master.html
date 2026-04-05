@@ -1,23 +1,35 @@
-<DOCTYPE! html>
-<html>
+<!DOCTYPE html>
 
-  <head>
-    <!--Style.css-->
-  </head>
+<html lang="en">
 
-  <div class=container>
-    <div class="box" id="top_left_box">
-      <h1>Mini Tab</h1>
-    </div>
+	<head>
+		<title>Tri Box</title>
 
-    <div class="box" id="top_right_box">
-      <a href="https://github.com/">Github</a>
-      <a href="https://www.wikipedia.org/">Wikipedia</a>
-    </div>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <div class="box" id="bottom_box">
-      <p>A simple single static page.</p>
-    </div>
-  </div>
+		<link rel="stylesheet" href="Style.css">
+	</head>
 
-<html>
+	<body>
+		<div class="box_container">
+			<div class="box_grid">
+
+				<div class="box" id="top_left">
+					<h1>Tri Box</h1>
+				</div> <!--top_left-->
+
+				<div class="box" id="top_right">
+					<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+					<a href="https://stackoverflow.com/questions" target="_blank" rel="noopener">Stack Overflow</a>
+				</div> <!--top_right-->
+
+				<div class="box" id="bottom">
+					<p>A simple single static page<br></p>
+				</div> <!--bottom-->
+
+			</div> <!--grid-->
+		</div> <!--center-->
+	</body>
+
+</html>
