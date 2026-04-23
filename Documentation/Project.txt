@@ -1,0 +1,4 @@
+About The Project
+-----------------
+
+A simple static page with three boxes.
