@@ -22,10 +22,10 @@ html, body {
 	height: 100%;
 	width: 100%;
 
-	background: var(--secondary-color);
+	background: linear-gradient(to right, var(--secondary-color), var(--tertiary-color));
 	color: var(--tertiary-color);
 
-	font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;	
+	font-family: system-ui, Roboto, Arial;	
 }
 
 .box_container {
