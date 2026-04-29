@@ -11,4 +11,4 @@ Steps:
 - Submit your Pull Request (PR).
 
 Code style:
-- Variables - kebab-case
+- Variables --kebab-case
